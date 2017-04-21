@@ -20,6 +20,8 @@ install dependencies
 ### Data ###
 
 We used [Plant Phenotyping DataSet](https://www.plant-phenotyping.org/datasets-overview) for training. 
+See [Plant-phenotyping](http://www.plant-phenotyping.org/) 
+and [how it was collected](http://juser.fz-juelich.de/record/154525/files/FZJ-2014-03837.pdf).
 [Download](http://www.plant-phenotyping.org/datasets-home) the dataset and copy to
 
 ```bash
@@ -45,6 +47,12 @@ See [inference.lua](CNN/inference.lua) for CLI options.
 
 ### Related (CNN-based) Efforts ###
 
+[Recurrent Instance Segmentation (Does Leaf counting)](http://www.robots.ox.ac.uk/~tvg/publications/2016/RIS7.pdf)
+
+[code for RIS (above)](https://github.com/bernard24/ris)
+
+[Paper that inspired RIS](https://arxiv.org/pdf/1506.04878v3.pdf)
+
 [DEEP-PLANT: PLANT IDENTIFICATION WITH CONVOLUTIONAL NEURAL NETWORKS](https://arxiv.org/pdf/1506.08425.pdf)
 
 [Plant recognition using CNNs](http://llcao.net/cu-deeplearning15/project_final/Plant%20Recognition.pdf)
@@ -57,13 +65,9 @@ See [inference.lua](CNN/inference.lua) for CLI options.
 
 [Instance-aware Semantic Segmentation via Multi-task Network Cascades](https://github.com/daijifeng001/MNC)
 
-[Recurrent Instance Segmentation (Does Leaf counting)](http://www.robots.ox.ac.uk/~tvg/publications/2016/RIS7.pdf)
-
-[code for RIS (above)](https://github.com/bernard24/ris)
-
-[Paper that inspired RIS](https://arxiv.org/pdf/1506.04878v3.pdf)
-
 [Deepmask](https://github.com/facebookresearch/deepmask)
+
+[Mask RCNN](https://arxiv.org/abs/1703.06870)
 
 [Berkely Fully Convolutional Networks](https://github.com/shelhamer/fcn.berkeleyvision.org)
 
@@ -75,11 +79,3 @@ See [inference.lua](CNN/inference.lua) for CLI options.
 
 * patch-based
 * post process with CRF
-
-- e2e for kagglefish
-
--scaling:
-    - find min-max of scales from data
-    - for each image
-        - scale it rand(min,max)
-        - take 256,256 patch of that
