@@ -2,7 +2,6 @@
 -- User: peyman
 -- Date: 11/2/16
 -- Time: 10:58 AM
--- To change this template use File | Settings | File Templates.
 --
 local pl = require 'pl.import_into'() -- see https://stevedonovan.github.io/Penlight/api/manual/01-introduction.md.html#To_Inject_or_not_to_Inject_
 

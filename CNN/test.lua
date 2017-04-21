@@ -2,7 +2,6 @@
 -- User: peyman
 -- Date: 11/3/16
 -- Time: 2:23 PM
--- To change this template use File | Settings | File Templates.
 --
 
 require 'torch'   -- torch

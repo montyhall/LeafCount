@@ -2,7 +2,6 @@
 -- User: peyman
 -- Date: 11/12/16
 -- Time: 10:56 AM
--- To change this template use File | Settings | File Templates.
 --
 
 require 'image'
