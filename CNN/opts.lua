@@ -2,7 +2,6 @@
 -- User: peyman
 -- Date: 11/14/16
 -- Time: 9:50 PM
--- on cims: th -i main.lua -serializedData /scratch/peyman
 --
 
 require 'image'
