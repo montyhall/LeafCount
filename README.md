@@ -36,7 +36,27 @@ See [opts.lua](CNN/opts.lua) for CLI options.
 ```bash
 > th -i main.lua
 ```
+To start anew:
+   
+```bash
+> rm -rf $ROOT/CNN/results/
+> rm $ROOT/data/NLL_trainData.t7 and/or rm $ROOT/data/BCE_trainData.t7
+> th main.lua
+```
 
+To generate data only:
+```bash
+> rm -rf $ROOT/CNN/results/
+> rm $ROOT/data/NLL_trainData.t7 and/or rm $ROOT/data/BCE_trainData.t7
+> th main.lua -genDataOnly
+```
+To see datasets:  
+```bash
+> rm -rf $ROOT/CNN/results/
+> rm $ROOT/data/NLL_trainData.t7 and/or rm $ROOT/data/BCE_trainData.t7
+> qlua main.lua 
+```
+    
 ### Inference ###
 
 See [inference.lua](CNN/inference.lua) for CLI options.
