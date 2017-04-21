@@ -47,32 +47,31 @@ See [inference.lua](CNN/inference.lua) for CLI options.
 
 ### Related (CNN-based) Efforts ###
 
-[Recurrent Instance Segmentation (Does Leaf counting)](http://www.robots.ox.ac.uk/~tvg/publications/2016/RIS7.pdf)
+- [Recurrent Instance Segmentation (Does Leaf counting)](http://www.robots.ox.ac.uk/~tvg/publications/2016/RIS7.pdf)
 
-[code for RIS (above)](https://github.com/bernard24/ris)
+    - [code for RIS (above)](https://github.com/bernard24/ris)
 
-[Paper that inspired RIS](https://arxiv.org/pdf/1506.04878v3.pdf)
+    - [Paper that inspired RIS](https://arxiv.org/pdf/1506.04878v3.pdf)
 
-[DEEP-PLANT: PLANT IDENTIFICATION WITH CONVOLUTIONAL NEURAL NETWORKS](https://arxiv.org/pdf/1506.08425.pdf)
+- [DEEP-PLANT: PLANT IDENTIFICATION WITH CONVOLUTIONAL NEURAL NETWORKS](https://arxiv.org/pdf/1506.08425.pdf)
 
-[Plant recognition using CNNs](http://llcao.net/cu-deeplearning15/project_final/Plant%20Recognition.pdf)
+- [Plant recognition using CNNs](http://llcao.net/cu-deeplearning15/project_final/Plant%20Recognition.pdf)
 
-[Fine-tuning Deep Convolutional Networks for Plant Recognition](http://ceur-ws.org/Vol-1391/121-CR.pdf)
+- [Fine-tuning Deep Convolutional Networks for Plant Recognition](http://ceur-ws.org/Vol-1391/121-CR.pdf)
 
-[Resnet training in Torch](https://github.com/facebook/fb.resnet.torch)
+- [Resnet training in Torch](https://github.com/facebook/fb.resnet.torch)
 
-[Faster_rcnn](https://github.com/ShaoqingRen/faster_rcnn)
+- [Faster_rcnn](https://github.com/ShaoqingRen/faster_rcnn)
 
-[Instance-aware Semantic Segmentation via Multi-task Network Cascades](https://github.com/daijifeng001/MNC)
+- [Instance-aware Semantic Segmentation via Multi-task Network Cascades](https://github.com/daijifeng001/MNC)
 
-[Deepmask](https://github.com/facebookresearch/deepmask)
+- [Deepmask](https://github.com/facebookresearch/deepmask)
 
-[Mask RCNN](https://arxiv.org/abs/1703.06870)
+- [Mask RCNN](https://arxiv.org/abs/1703.06870)
 
-[Berkely Fully Convolutional Networks](https://github.com/shelhamer/fcn.berkeleyvision.org)
+- [Berkely Fully Convolutional Networks](https://github.com/shelhamer/fcn.berkeleyvision.org)
 
-[Leafsnap: A Computer Vision System for Automatic Plant Species Identification](http://neerajkumar.org/base/papers/nk_eccv2012_leafsnap.pdf)  [code](https://github.com/sujithv28/Deep-Leafsnap)
-
+- [Leafsnap: A Computer Vision System for Automatic Plant Species Identification](http://neerajkumar.org/base/papers/nk_eccv2012_leafsnap.pdf)  [code](https://github.com/sujithv28/Deep-Leafsnap)
 
 
 ### TODO ###
