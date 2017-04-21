@@ -49,7 +49,7 @@ See [inference.lua](CNN/inference.lua) for CLI options.
 
 - [Recurrent Instance Segmentation (Does Leaf counting)](http://www.robots.ox.ac.uk/~tvg/publications/2016/RIS7.pdf)
 
-    - [code for RIS (above)](https://github.com/bernard24/ris)
+    - [code for RIS](https://github.com/bernard24/ris)
 
     - [Paper that inspired RIS](https://arxiv.org/pdf/1506.04878v3.pdf)
 

@@ -70,7 +70,7 @@ function M.parse(arg)
     cmd:option('-visualize', false, 'visualize sample of input images. Default: true')
     cmd:option('-plot', true, 'plot learning errors. Default: true')
     cmd:option('-save', 'results', 'save directory')
-    cmd:option('-silent', true, 'don\'t print anything to stdout')
+    cmd:option('-silent', false, 'don\'t print anything to stdout')
 
     -- Backend options
     cmd:option('-threads', 8, 'number of threads. Default: 8')
