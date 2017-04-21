@@ -23,7 +23,7 @@ Download the [data](http://www.plant-phenotyping.org/datasets-home) and save to
 > $ROOT/data
 ```
 
-if running on CIMS (CUDA2) do
+if running on CUDA
 ```bash
 > th -i main.lua
 ```
