@@ -1,5 +1,7 @@
 ### Learning to count leaves ###
-Learns semantic and instance segmentation of leaves
+Torch7 code for training a CNN for semantic and instance segmentation of leaves. 
+
+### Directory structure ###
 
 Directory    | Content 
 :-------------:|:----------------------
@@ -7,7 +9,7 @@ CNN     | Core CNN code
 data     | Training data
 shells      | various bash shells
 
-### Run ###
+### Dependencies ###
 
 install dependencies
 
@@ -15,7 +17,7 @@ install dependencies
 > shells/dependencies.sh
 ```
 
-Get Data
+### Data ###
 
 Download the [data](http://www.plant-phenotyping.org/datasets-home) and save to
 
@@ -23,16 +25,22 @@ Download the [data](http://www.plant-phenotyping.org/datasets-home) and save to
 > $ROOT/data
 ```
 
-if running on CUDA
+### Training ###
+
+See [opts.lua](CNN/opts.lua) for CLI options.
+
 ```bash
 > th -i main.lua
 ```
 
+### Inference ###
 
-Train
+See [inference.lua](CNN/inference.lua) for CLI options.
+
 ```bash
-> 
+> th -i inference.lua
 ```
+
 
 ### TODO ###
 

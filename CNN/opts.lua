@@ -12,7 +12,7 @@ local M = { }
 function M.parse(arg)
     cmd = torch.CmdLine()
     cmd:text()
-    cmd:text('Train a CNN for float images')
+    cmd:text('Train a CNN for segmenting leaf images')
     cmd:text('Example:')
     cmd:text("th -i main.lua -gpu -batch_size 100")
     cmd:text('Options:')
